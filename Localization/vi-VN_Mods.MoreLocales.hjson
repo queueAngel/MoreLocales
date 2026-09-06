@@ -191,8 +191,8 @@ Cultures: {
 	}
 
 	Belarusian: {
-		// Title: Mods.MoreLocales.Cultures.Belarusian.Title
-		// Subtitle: Mods.MoreLocales.Cultures.Belarusian.Subtitle
+		// Title: Belarusian
+		// Subtitle: "{$Cultures.Common.StandardSubtitle}"
 	}
 }
 

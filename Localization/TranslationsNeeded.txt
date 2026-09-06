@@ -1,7 +1,7 @@
-en-US, 77/18689, 0%, missing 18612
+en-US, 76/18689, 0%, missing 18613
 de-DE, 50/18689, 0%, missing 18639
-fr-FR, 39/18689, 0%, missing 18650
-es-ES, 55/18689, 0%, missing 18634
+fr-FR, 40/18689, 0%, missing 18649
+es-ES, 56/18689, 0%, missing 18633
 ru-RU, 50/18689, 0%, missing 18639
 zh-Hans, 64/18689, 0%, missing 18625
 en-GB, 287/18689, 2%, missing 18402
