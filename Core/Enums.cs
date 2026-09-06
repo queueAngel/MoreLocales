@@ -80,6 +80,10 @@ public enum CultureNamePlus
     /// </summary>
     Indonesian,
     /// <summary>
+    /// be-BY
+    /// </summary>
+    Belarusian,
+    /// <summary>
     /// 9999
     /// </summary>
     Unknown = 9999,

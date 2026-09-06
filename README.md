@@ -21,6 +21,7 @@ Vietnamese (vi-VN) <img src="https://catamphetamine.github.io/country-flag-icons
 Finnish (fi-FI) <img src="https://catamphetamine.github.io/country-flag-icons/3x2/FI.svg" width="20">  
 Romanian (ro-RO) <img src="https://catamphetamine.github.io/country-flag-icons/3x2/RO.svg" width="20">  
 Indonesian (id-ID) <img src="https://catamphetamine.github.io/country-flag-icons/3x2/ID.svg" width="20">  
+Belarusian (be-BY) <img src="https://catamphetamine.github.io/country-flag-icons/3x2/BY.svg" width="20">  
 
 Developers may also add their own languages to the menu through the API (read [the wiki page](https://github.com/queueAngel/MoreLocales/wiki/Registering-a-New-Culture) for more info)
  

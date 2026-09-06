@@ -1,0 +1,258 @@
+Configs: {
+	Headers: {
+		Fonts: Налады шрыфтоў
+		Features: Іншыя функцыі
+	}
+
+	ClientSideConfig: {
+		DisplayName: Канфігурацыя кліента
+
+		ForcedFont: {
+			Label: Прымусовае выкарыстанне шрыфту
+			Tooltip:
+				'''
+				Гэты тып шрыфту будзе ўжывацца прымусова, ігнаруючы бягучыя моўныя налады.
+				Прадвызначаны выкарыстоўваецца {$Configs.LocalizedFont.None.Label} — шрыфт будзе дынамічна мяняцца ў залежнасці ад абранай мовы.
+				'''
+		}
+
+		LocalizedPrefixPlacement: {
+			Label: Разумнае размяшчэнне прэфікса
+			Tooltip: Змяняе размяшчэнне прэфікса прадметаў ў некаторых мовах
+		}
+
+		LocalizedPrefixGenderPluralization: {
+			Label: Разумнае скланенне прэфікса
+			Tooltip: Змяняе ў некаторых мовах скланенне прэфікса ў залежнасці ад прадмета 
+		}
+	}
+
+	LocalizedFont: {
+		Tooltip: Тып шрыфту, які выкарыстоўвае гульня. Невялікія змены шрыфту для розных моў неабходныя з-за абмежаванняў Unicode
+
+		None: {
+			Label: Няма
+			Tooltip: ""
+		}
+
+		Default: {
+			Label: Прадвызначаны
+			Tooltip: ""
+		}
+
+		Japanese: {
+			Label: Японскі
+			Tooltip: ""
+		}
+
+		Korean: {
+			Label: Карэйскі
+			Tooltip: ""
+		}
+	}
+}
+
+Cultures: {
+	Common: {
+		StandardSubtitle: Стандарт
+		LocalizedFontUnavailable:
+			'''
+			Гэтая мова не можа быць ужыта, таму што ў бягучай версіі мадыфікацыі няма патрэбнага шрыфту.
+			Чакайце наступнага абнаўлення!
+			'''
+	}
+
+	English: {
+		Title: Англійская
+		Subtitle: Злучаныя Штаты
+	}
+
+	German: {
+		Title: Нямецкая
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Italian: {
+		Title: Італьянская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	French: {
+		Title: Французская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Spanish: {
+		Title: Іспанская
+		Subtitle: Іспанія
+	}
+
+	Russian: {
+		Title: Расейская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Chinese: {
+		Title: Кітайская
+		Subtitle: Спрошчаная
+	}
+
+	Portuguese: {
+		Title: Партугальская
+		Subtitle: Бразілія
+	}
+
+	Polish: {
+		Title: Польская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	BritishEnglish: {
+		Title: Англійская
+		Subtitle: Вялікабрытанія
+	}
+
+	Japanese: {
+		Title: Японская
+		Subtitle: Хёдзюнга
+	}
+
+	Korean: {
+		Title: Карэйская
+		Subtitle: Паўднёвая Карэя
+	}
+
+	TraditionalChinese: {
+		Title: Кітайская
+		Subtitle: Традыцыйная
+	}
+
+	Turkish: {
+		Title: Турэцкая
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Thai: {
+		Title: Тайская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Ukrainian: {
+		Title: Украінская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	MexicanSpanish: {
+		Title: Іспанская
+		Subtitle: Мексіка
+	}
+
+	Czech: {
+		Title: Чэшская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Hungarian: {
+		Title: Венгерская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	PortugalPortuguese: {
+		Title: Партугальская
+		Subtitle: Партугалія
+	}
+
+	Swedish: {
+		Title: Шведская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Dutch: {
+		Title: Нідэрландская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Danish: {
+		Title: Дацкая
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Vietnamese.Title: В'етнамская
+
+	Finnish: {
+		Title: Фінская
+		Subtitle: Кірыякіелі
+	}
+
+	Romanian: {
+		Title: Румынская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Indonesian: {
+		Title: Інданезійская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Belarusian: {
+		Title: Беларуская
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+}
+
+Misc: {
+	Error: {
+		FontPatchingError:
+			'''
+			Падчас абнаўлення шрыфтоў адбылася памылка.
+			Лакалізаваныя шрыфты не будуць адлюстроўвацца як мае быць.
+			Калі ласка, неадкладна паведаміце пра памылку распрацоўшчыкам Localization Plus.
+			Тым часам можаце паспрабаваць перазапусціць гульню.
+			Каб працягнуць, Націсніце «Добра».
+			'''
+		InvalidGrammaticalGender: Персанаж або назва «{0}» не мае адпаведнага граматычнаму роду.
+		InvalidGrammaticalNumber: Персанаж або назва «{0}» не мае адпаведнага прадвызначанага граматычнаму ліку.
+		InvalidInflection: Назва «{0}» не распазнана як дапушчальная. Пераканайцеся, што яна змяшчае і род, і лік.
+		LPlusNone: Невядомая памылка пры разборы файла «{0}»: пазіцыя {1}, радок '{2}'.
+		LPlusEntryOutside: Памылка ў файле «{0}»: запіс {2} знаходзіцца па-за раздзелам.
+		LPlusSubsectionWithoutSection: Памылка ў файле «{0}»: падраздзел 	«{2}» не знаходзіцца ні ў якім раздзеле.
+		LPlusInvalidSectionOrSubsection: Памылка ў файле «{0}»: раздзел або падраздзел «{2}» не быў распазнаны або мае няслушны фармат.
+		LPlusSectionTagsUnexpected: Памылка ў файле {0}: адзін або некалькі цэтлікаў у раздзеле або падраздзеле «{2}» не былі распазнаны або не такія, як чакалася.
+		LPlusSectionTagsUnexpectedCount: Памылка ў файле «{0}»: колькасць тэгаў у раздзеле або падраздзеле «{2}» не супала з чаканай.
+		LPlusMalformedEntry: Запіс «{2}» мае няслушны фармат значэння.
+		LPlusUnexpectedEntry: Памылка ў файле «{0}»: колькасць запісаў у раздзеле або падраздзеле «{2}» не супала з чаканай.
+		LPlusBadEntryFormat: Памылка ў файле «{0}»: запіс у раздзеле або падраздзеле «{2}» не адпавядае правільнаму фармату. Калі ласка, перачытайце дакументацыю файла са словаформамі.
+		LPlusBadSimpleMatch: Радок «{2}» не з'яўляецца дапушчальным простым узорам супадзення. Калі ласка, перачытайце дакументацыю файла са словаформамі.
+		LPlusOverrideOverlap: Памылка ў файле «{0}»: некалькі словаформ для прадмета «{2}» ствараюць канфлікт. Калі вы выкарыстоўваеце параметр 'Inflection:', не ўжывайце адначасова 'Gender:' або 'Number:', і наадварот.
+	}
+}
+
+Commands: {
+	TestPrefixesCommand: {
+		Error: {
+			LanguageNoInflections: Бягучая мова ({0}) з  кодам «{1}», не мае файла са словаформамі; формы прэфіксаў будуць як прадвызначаныя.
+			NoArgs:
+				'''
+				Калі ласка, вызначыце слушны ідэнтыфікатар прадмета.
+				Для звычайных прадметаў гэта можа быць лікавы ID або ўнутраная назва.
+				Для прадметаў з мадыфікацый гэта павінна быць унутраная назва ў адпаведным фармаце: ModInternalName/ItemInternalName
+				'''
+			UnknownItem:
+				'''
+				Прадмет «{0}» не быў знойдзены.
+				{$NoArgs}
+				'''
+		}
+
+		Success.BasicInfo:
+			'''
+			Прадмет «{0}» мае скланенне {1} з парадыгмай {2}.
+			Вось як будуць выглядаць прэфіксы:
+			'''
+	}
+
+	ItemInflectionsCommand: {
+		Error.LanguageNoInflections: Бягучая мова ({0}) з  кодам «{1}», не мае файла са словаформамі; усе прадметы будуць мець прадвызначанае скланенне.
+		Advice: Гэтая каманда вельмі хутка засмечвае чат. Лепш выкарыстоўваць яе праз кансоль tModLoader. Гэта можна зрабіць у шматкарыстальніцкай гульні або дадаўшы -c пасля самой каманды.
+	}
+}

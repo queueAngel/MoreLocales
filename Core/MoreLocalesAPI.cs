@@ -283,7 +283,7 @@ public static class MoreLocalesAPI
     private const string customCultureDataName = "LocalizationPlusData.dat";
     private static int loadedCulture = 9999;
     internal static int cachedVanillaCulture = 1; // english by default
-    internal static MoreLocalesCulture[] extraCulturesV2 = new MoreLocalesCulture[28]; // entry 0 is a dummy default entry
+    internal static MoreLocalesCulture[] extraCulturesV2 = new MoreLocalesCulture[29]; // entry 0 is a dummy default entry
     internal static Dictionary<Mod, ulong> _localizationFlags = [];
     private static int _registeredCount = 1; // starts at one because CultureName.English is 1
     internal static Dictionary<Type, int> _autoloadedCulturesRegistry;
@@ -597,6 +597,12 @@ public static class MoreLocalesAPI
             nativeName: "Bahasa Indonesia",
             grammarData: GrammarData.StyleOrder(PluralizationStyle.None, AdjectiveOrder.AfterWithSpace),
             buttonDrawData: new(sheetFrame: (int)Indonesian));
+
+        mod.RegisterCulture(nameof(Belarusian),
+            "be-BY",
+            nativeName: "Беларуская",
+            grammarData: new(PluralizationStyle.RussianThreeway),
+            buttonDrawData: new(sheetFrame: (int)Belarusian));
     }
     internal static void DoSafeLoad()
     {

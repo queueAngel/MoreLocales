@@ -74,7 +74,7 @@ public static class BetterLangMenuV2
     /// <summary>
     /// The amount of flags (frames) in MoreLocales' flags spritesheet.
     /// </summary>
-    public const int FlagsCount = 28;
+    public const int FlagsCount = 29;
     internal static int columns = 2;
     internal static int rows = 5;
     internal static int currentPage = 0;
