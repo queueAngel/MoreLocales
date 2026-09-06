@@ -25,10 +25,26 @@ Configs: {
 
 	LocalizedFont: {
 		Tooltip: Thể loại phông mà game dùng. Một vài thay đổi nhỏ tới các ngôn ngữ là cần thiết do hạn chế của Unicode
-		None.Label: Không
-		Default.Label: Mặc Định
-		Japanese.Label: Tiếng Nhật
-		Korean.Label: Tiếng Hàn
+
+		None: {
+			Label: Không
+			// Tooltip: ""
+		}
+
+		Default: {
+			Label: Mặc Định
+			// Tooltip: ""
+		}
+
+		Japanese: {
+			Label: Tiếng Nhật
+			// Tooltip: ""
+		}
+
+		Korean: {
+			Label: Tiếng Hàn
+			// Tooltip: ""
+		}
 	}
 }
 
@@ -172,6 +188,11 @@ Cultures: {
 	Indonesian: {
 		Title: Tiếng Indo
 		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Belarusian: {
+		// Title: Mods.MoreLocales.Cultures.Belarusian.Title
+		// Subtitle: Mods.MoreLocales.Cultures.Belarusian.Subtitle
 	}
 }
 

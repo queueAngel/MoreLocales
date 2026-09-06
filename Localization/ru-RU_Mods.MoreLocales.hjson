@@ -29,10 +29,26 @@ Configs: {
 
 	LocalizedFont: {
 		Tooltip: Тип шрифта, используемого в игре. Небольшие изменения шрифта для разных языков необходимы из-за ограничений Unicode.
-		None.Label: нет
-		Default.Label: обычный
-		Japanese.Label: японский
-		Korean.Label: корейский
+
+		None: {
+			Label: нет
+			// Tooltip: ""
+		}
+
+		Default: {
+			Label: обычный
+			// Tooltip: ""
+		}
+
+		Japanese: {
+			Label: японский
+			// Tooltip: ""
+		}
+
+		Korean: {
+			Label: корейский
+			// Tooltip: ""
+		}
 	}
 }
 
@@ -176,6 +192,11 @@ Cultures: {
 	Indonesian: {
 		Title: Индонезийский
 		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Belarusian: {
+		// Title: Mods.MoreLocales.Cultures.Belarusian.Title
+		// Subtitle: Mods.MoreLocales.Cultures.Belarusian.Subtitle
 	}
 }
 

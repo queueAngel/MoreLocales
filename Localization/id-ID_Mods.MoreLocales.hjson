@@ -29,10 +29,26 @@ Configs: {
 
 	LocalizedFont: {
 		// Tooltip: The type of font the game uses. Small changes to the font for different languages are necessary due to Unicode restrictions
-		// None.Label: None
-		// Default.Label: Default
-		// Japanese.Label: Japanese
-		// Korean.Label: Korean
+
+		None: {
+			// Label: None
+			// Tooltip: ""
+		}
+
+		Default: {
+			// Label: Default
+			// Tooltip: ""
+		}
+
+		Japanese: {
+			// Label: Japanese
+			// Tooltip: ""
+		}
+
+		Korean: {
+			// Label: Korean
+			// Tooltip: ""
+		}
 	}
 }
 
@@ -176,6 +192,11 @@ Cultures: {
 	Indonesian: {
 		// Title: Indonesian
 		Subtitle: Standar
+	}
+
+	Belarusian: {
+		// Title: Mods.MoreLocales.Cultures.Belarusian.Title
+		// Subtitle: Mods.MoreLocales.Cultures.Belarusian.Subtitle
 	}
 }
 

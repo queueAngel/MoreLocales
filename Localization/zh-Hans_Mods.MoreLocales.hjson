@@ -35,10 +35,26 @@ Configs: {
 			由于Unicode和Terraria的限制
 			需要根据语言来选择合适的字体
 			'''
-		None.Label: 无
-		Default.Label: 默认
-		Japanese.Label: 日语
-		Korean.Label: 韩语
+
+		None: {
+			Label: 无
+			// Tooltip: ""
+		}
+
+		Default: {
+			Label: 默认
+			// Tooltip: ""
+		}
+
+		Japanese: {
+			Label: 日语
+			// Tooltip: ""
+		}
+
+		Korean: {
+			Label: 韩语
+			// Tooltip: ""
+		}
 	}
 }
 
@@ -183,6 +199,11 @@ Cultures: {
 	Indonesian: {
 		Title: 印度尼西亚语
 		Subtitle: "{$Cultures.Common.StandardSubtitle}印尼语"
+	}
+
+	Belarusian: {
+		// Title: Mods.MoreLocales.Cultures.Belarusian.Title
+		// Subtitle: Mods.MoreLocales.Cultures.Belarusian.Subtitle
 	}
 }
 

@@ -25,10 +25,26 @@ Configs: {
 
 	LocalizedFont: {
 		Tooltip: El tipo de fuente que utiliza el juego. Los cambios pequeños de fuente para diferentes idiomas son necesarios debido a las restricciones de Unicode
-		None.Label: Ninguna
-		Default.Label: Por defecto
-		Japanese.Label: Japonesa
-		Korean.Label: Coreana
+
+		None: {
+			Label: Ninguna
+			// Tooltip: ""
+		}
+
+		Default: {
+			Label: Por defecto
+			// Tooltip: ""
+		}
+
+		Japanese: {
+			Label: Japonesa
+			// Tooltip: ""
+		}
+
+		Korean: {
+			Label: Coreana
+			// Tooltip: ""
+		}
 	}
 }
 
@@ -171,6 +187,11 @@ Cultures: {
 
 	Indonesian: {
 		Title: Indonesio
+		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Belarusian: {
+		Title: Bielorruso
 		Subtitle: "{$Cultures.Common.StandardSubtitle}"
 	}
 }

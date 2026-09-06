@@ -33,10 +33,26 @@ Configs: {
 			遊戲使用的字體類型。
 			由於 Unicode 的限制，針對不同語言的字體需要進行微調。
 			'''
-		None.Label: 無
-		Default.Label: 預設
-		Japanese.Label: 日文
-		Korean.Label: 韓文
+
+		None: {
+			Label: 無
+			// Tooltip: ""
+		}
+
+		Default: {
+			Label: 預設
+			// Tooltip: ""
+		}
+
+		Japanese: {
+			Label: 日文
+			// Tooltip: ""
+		}
+
+		Korean: {
+			Label: 韓文
+			// Tooltip: ""
+		}
 	}
 }
 
@@ -180,6 +196,11 @@ Cultures: {
 	Indonesian: {
 		Title: 印尼文
 		Subtitle: "{$Cultures.Common.StandardSubtitle}"
+	}
+
+	Belarusian: {
+		// Title: Mods.MoreLocales.Cultures.Belarusian.Title
+		// Subtitle: Mods.MoreLocales.Cultures.Belarusian.Subtitle
 	}
 }
 
